@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState(null);
 
   const callApi = async () => {
-    const res = await fetch("/api/message");
+    const res = await fetch("https://ca-backend-dev.gentletree-fb33c52d.westus2.azurecontainerapps.io/message");
     const json = await res.json();
     setData(json);
   };
