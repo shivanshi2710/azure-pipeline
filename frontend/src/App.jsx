@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h1>React Frontend ✅</h1>
+      <h1>React Frontend by Devansh ✅</h1>
       <button onClick={callApi}>Call Backend</button>
       <pre>{JSON.stringify(data, null, 2)}</pre>
     </div>
